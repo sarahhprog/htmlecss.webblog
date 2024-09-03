@@ -1,0 +1,110 @@
+/* Formatação da Estrutura */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(196, 127, 196); /* Cor de fundo para o corpo */
+}
+
+header {
+    background-color: rgb(156, 98, 211);
+    
+}
+
+main {
+    background-color: rgb(172, 131, 189);
+    width: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: none;
+}
+
+aside {
+    background-color: rgb(189, 123, 183);
+    width: 30%;
+    float: right;
+    padding: 30px;
+    box-sizing: border-box;
+    color: rgb(14, 17, 17);
+}
+
+footer {
+    background-color: rgb(133, 45, 99);
+    clear: both;
+}
+
+/* Componente Menu Principal */
+.caixa-menuprincipal {
+    float: right;
+}
+
+.caixa-menuprincipal ul {
+    list-style-type: none;
+}
+
+.caixa-menuprincipal ul li {
+    display: inline-block;
+}
+
+.caixa-menuprincipal ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(212, 146, 218);
+    font-weight: bold;
+    float: left;
+    padding: 45px;
+}
+
+.caixa-menuprincipal ul li a:hover {
+    background-color: rgb(218, 146, 201);
+}
+
+/* Componente Postagem */
+.caixa-post {
+    margin-bottom: 100px;
+    clear: both;
+}
+
+/* Atualizado para imagem */
+.caixa-post img {
+    width: 30%; /* Ajusta a imagem para ocupar toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaçamentos indesejados */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+}
+
+.caixa-post h4 { 
+    font-size: 90%;
+    color: rgb(63, 60, 60);
+}
+
+.caixa-post p {
+    font-size: 90%;
+    color: rgb(64, 57, 71);
+}
+
+/* Componente Pesquisa */
+.caixa-menuprincipal {
+    /* Adicione estilos se necessário */
+}
+
+/* Componente Menu Categoria */
+.caixa-menuprincipal {
+    /* Adicione estilos se necessário */
+}
+
+/* Componente Menu Pesquisa */
+.caixa-menuprincipal ul li a {
+    color: rgb(180, 86, 160);
+}
+
+.caixa-menuprincipal ul li a:visited {
+    color: bisque;
+}
